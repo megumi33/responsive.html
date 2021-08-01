@@ -1,0 +1,241 @@
+img {
+  width: 1200px;
+  height: 600px;
+}
+
+.header-top {
+  color: white;
+  right: auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  color: white;
+  line-height: 1.7;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.small-container {
+  max-width: 760px;
+  margin: 80px auto 0;
+}
+
+.common__ttl {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+}
+
+.common__sub-ttl {
+  font-size: 16px;
+  font-family: "Shippori Mincho", cursive;
+  color: #b31566;
+}
+
+/*--------------------- header--------------------- */
+
+.header {
+  height: 70px;
+  line-height: 70px;
+}
+
+.header__logo {
+  width: 140px;
+  margin-left: 40px;
+}
+
+.header__nav {
+  margin-right: 500px;
+}
+
+.header__nav-list li {
+  margin-right: 25px;
+}
+
+.header__nav-list li:last-child {
+  margin-right: 0;
+}
+
+.header__nav-list-link {
+  height: 70px;
+  display: inline-block;
+}
+/*---------------------recruit--------------------- */
+
+#recruit {
+  margin-top: 525px;
+}
+
+.recruit__item {
+  height: 300px;
+  position: relative;
+  width: 40%;
+  left: 40px;
+  display: block;
+  transition: 0.4s;
+}
+
+.recruit__item:hover {
+  filter: grayscale(1);
+  transition: 0.4s;
+}
+
+.recruit__item--first {
+  background: url(../img/topics-img1.png) no-repeat;
+  background-size: cover;
+}
+
+.recruit__item--second {
+  background: url(../img/topics-img2.png) no-repeat;
+  background-size: cover;
+}
+.recruit__item--third {
+  background: url(../img/topics-img3.png) no-repeat;
+  background-size: cover;
+}
+.recruit__item-ttl {
+  position: absolute;
+  top: 180px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Shippori Mincho", cursive;
+  font-size: 30px;
+}
+.recruit__item-tt2 {
+  position: absolute;
+  top: 240px;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Shippori Mincho", cursive;
+  font-size: 15px;
+}
+/*---------------------styles--------------------- */
+.styles-1 {
+  background: linear-gradient(black, white) fixed;
+  width: 1150px;
+  height: 600px;
+  padding: 15px;
+  left: 40px;
+  z-index: 5;
+  position: relative;
+}
+.styles-text {
+  font-family: "Shippori Mincho", cursive;
+  font-size: 40px;
+  z-index: 20;
+  color: white;
+  position: absolute;
+  top: 50px;
+  left: 10%;
+  height: 40px;
+  width: 2px;
+}
+.styles-img{
+    display:flex;
+}
+.styles-img>div{
+    width: 30%;
+    height: 30%;
+}
+.styles-img2{
+    display:flex;
+}
+.styles-img2>div{
+    width: 30%;
+    height: 30%;
+}
+/*---------------------about--------------------- */
+.about-finish{
+  position: relative;
+}
+.about-back {
+  background-color: black;
+  width: 1150px;
+  height: 600px;
+  padding: 15px;
+  left: 40px;
+  z-index: 5;
+  position: absolute;
+  top: 550px;
+  left: 5%;
+}
+.about-text1 {
+  font-family: "Shippori Mincho", cursive;
+  font-size: 25px;
+  z-index: 20;
+  color: white;
+  position: absolute;
+  top: 700px;
+  right: 40%;
+}
+.about-text2 {
+  font-family: "Shippori Mincho", cursive;
+  font-size: 40px;
+  z-index: 20;
+  color: white;
+  position: absolute;
+  top: 750px;
+  right: 35%;
+}
+.about-text3 {
+  font-family: "Shippori Mincho", cursive;
+  font-size: 15px;
+  z-index: 20;
+  color: white;
+  position: absolute;
+  top: 900px;
+  right: 10%;
+}
+.about-png {
+  width: 300px;
+  height: 20px;
+  z-index: 20;
+  position: absolute;
+  top: 600px;
+  left: 10%;
+}
+.box1 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: lighter;
+    border: solid 3px white;
+     z-index: 20;
+     position: absolute;
+  top: 2550px;
+  right: 40%;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+     z-index: 20;
+}
+.footer small{
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  display: block;
+   z-index: 20;
+  color: white;
+  position: absolute;
+  top: 2650px;
+  left: 40%;
+}
