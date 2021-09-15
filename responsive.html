@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>レスポンシブデザイン テスト</title>
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
   <link
@@ -13,119 +13,110 @@
     rel="stylesheet">
 
 
-  </head>
 
+</head>
 
 <body>
-  
-    <header class="header flex__item">
-      <div class="header__logo">
-        <img src="img/firstview.png" alt="">
+
+  <header class="header">
+    <h1 class="header__logo">Tecool</h1>
+    <nav class="header-nav pc">
+      <ul class="header-nav__ul">
+        <li class="header-nav__list"><a href="">Item</a></li>
+        <li class="header-nav__list"><a href="">Topics</a></li>
+        <li class="header-nav__list"><a href="">Style</a></li>
+        <li class="header-nav__list"><a href="">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="hamburger tab">
+    <img src="img/hamburger.svg" alt="">
+  </div>
+  <div class="firstview">
+    <div class="firstview__content">
+      <h2 class="firstview__catchcopy">呼び覚ませ</h2>
+      <p class="firstview__ss-txt">2021 Spring & Summer</p>
+    </div>
+  </div>
+
+
+  <div class="topics">
+    <a class="topics__item">
+      <div class="topics__item-img">
+        <img src="img/topics-img1.png" alt="">
       </div>
-        <h3 class="header-top">Tecool</h3>   
-      <nav class="header__nav">
-        <ul class="header__nav-list flex__item">
-          <li>
-            <a href="" class="header__nav-list-link">News</a>
-          </li>
-          <li>
-            <a href="" class="header__nav-list-link">About</a>
-          </li>
-          <li>
-            <a href="" class="header__nav-list-link">Service</a>
-          </li>
-          <li>
-            <a href="" class="header__nav-list-link">Blog</a>
-          </li>
-          <li>
-            <a href="" class="header__nav-list-link">Company</a>
-          </li>
-          <li>
-            <a href="" class="header__nav-list-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header-text1">
-        <h5>呼び覚ませ</h5>
-        </div>
-       <div class="header-text2">
-        <p>2021　Spring＆Sumer</p>
-        </div>
-    </header>
+      <div class="topics__item-content">
+        <h2 class="topics__item-ttl">Life Style</h2>
+        <p class="topics__item-txt pc">サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
+      </div>
+    </a>
+    <a class="topics__item">
+      <div class="topics__item-img">
+        <img src="img/topics-img2.png" alt="">
+      </div>
+      <div class="topics__item-content">
+        <h2 class="topics__item-ttl">Important</h2>
+        <p class="topics__item-txt pc">サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
+      </div>
+    </a>
+    <a class="topics__item">
+      <div class="topics__item-img">
+        <img src="img/topics-img3.png" alt="">
+      </div>
+      <div class="topics__item-content">
+        <h2 class="topics__item-ttl">Culture</h2>
+        <p class="topics__item-txt pc">サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
+      </div>
+    </a>
+  </div>
 
-    <div id="recruit">
-      <div class="flex__item">
-        <a class="recruit__item recruit__item--first" href="">
-          <h2 class="recruit__item-ttl">Life Style</h2>
-          <p class="recruit__item-tt2">サンプルテキストがここには入ります。サンプルテキ<br>
-            ストがここには入ります。</p>
-        </a>
-        <a class="recruit__item recruit__item--second" href="">
-          <h2 class="recruit__item-ttl">Important</h2>
-          <p class="recruit__item-tt2">サンプルテキストがここには入ります。サンプルテキ<br>
-            ストがここには入ります。</p>
-        </a>
-        <a class="recruit__item recruit__item--third" href="">
-          <h2 class="recruit__item-ttl">Culture</h2>
-          <p class="recruit__item-tt2">サンプルテキストがここには入ります。サンプルテキ<br>
-            ストがここには入ります。</p>
-        </a>
+
+  <div class="styles">
+    <h2 class="styles-ttl">Styles</h2>
+    <div class="styles-wrap">
+      <div class="styles-wrap__item">
+        <img src="img/styles-img1.png" alt="">
+      </div>
+      <div class="styles-wrap__item">
+        <img src="img/styles-img2.png" alt="">
+      </div>
+      <div class="styles-wrap__item">
+        <img src="img/styles-img3.png" alt="">
+      </div>
+      <div class="styles-wrap__item">
+        <img src="img/styles-img4.png" alt="">
+      </div>
+      <div class="styles-wrap__item">
+        <img src="img/styles-img5.png" alt="">
+      </div>
+      <div class="styles-wrap__item">
+        <img src="img/styles-img6.png" alt="">
       </div>
     </div>
-     
-    <div class="styles-1">
-         <p class="styles-text"> Styles</p>
-           
-          <div class="styles-img">
-             <div>
-                <img src="img/styles-img1.png" alt="">
-             </div>
-             <div>
-                <img src="img/styles-img2.png" alt="">
-             </div>
-            <div>
-              <img src="img/styles-img3.png" alt="">
-            </div>
-           </div>
-            <div class="styles-img2">
-              <div>
-                <img src="img/styles-img4.png" alt="">
-              </div>
-              <div>
-                <img src="img/styles-img5.png" alt="">
-              </div>
-              <div>
-                <img src="img/styles-img6.png" alt="">
-              </div>
-            </div>
+  </div>
+
+
+  <div class="about">
+    <div class="about__inner">
+      <div class="about__img">
+        <img src="img/about.png" alt="">
+      </div>
+      <div class="about__content">
+        <p class="about__content-subttl">Make your World</p>
+        <h2 class="about__content-ttl">個性が出せる<br>世界に</h2>
+        <p class="about__content-txt"><span
+            class="about__content-newline">ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。</span>ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予定です。
+        </p>
+        <a href="" class="about-btn">Aboutページへ</a>
+      </div>
     </div>
+  </div>
 
-    <div class="about-finish">
-      <div class="about-back"></div>
-      <p class="about-text1"> MakeyourWorld</p>
-      <p class="about-text2"> 個性が出せる<br>世界に</p>
-      <p class="about-text3"> ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予<br>
-        定です。ここにはAboutのテキストが入る予定です。ここにはAboutのテキスト<br>
-        が入る予定です。<br>
-      ここにはAboutのテキストが入る予定です。ここにはAboutのテキストが入る予<br>
-      定です。</p>
-      
+  <footer class="footer">
+    <small class="footer__copyright">
+      &copy; 2021 estra, inc
+    </small>
+  </footer>
+</body>
 
-
-    </div>
-
-    <div class="box1">
-      <p>Aboutページへ</p>
-    </div>
-
-<footer class="footer">
-  <small class="copyright">
-    &copy; 2021 estra, inc
-  </small>
-</footer>
-
-
-
-     
-   </body>
- </html>
+</html>
